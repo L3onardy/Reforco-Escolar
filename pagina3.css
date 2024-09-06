@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+/*Responsividade para celular*/
+@media(max-width:450px){
+    body{
+        color: red;
+        background-color: white;
+        margin: 0;
+    }
+    /*Estilizacão do cabecalho*/
+    .topo3{
+        color: white;
+        background-color: black;
+        line-height: 30%;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        padding: 10px;
+        
+    }
+    /*Estilizacão da imagem do cabecalho*/
+    img{
+        text-align:  justify;
+        width: 40%;
+        height: 40%;
+        display:block;
+        margin:auto;
+        border-radius: 10px;
+    }
+    /*Estilizacão da secão*/
+    .coluna2{
+        text-align:center;
+        
+    }
+    /*Estilizacão do rodapé*/
+    #footer{
+        color: black;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        
+    }
+
+}

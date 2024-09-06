@@ -1,0 +1,75 @@
+@media(max-width:450px){
+    *{
+        box-sizing: border-box;
+    }
+    /*Estilizacão do corpo do site*/
+    body{
+        margin: 0;
+        color: black;
+        background-color: white;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    /*Estilizacão da tag link a*/
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    /*Estilizacão da tag link a*/
+    a:hover{
+        color: blue;
+    }
+    /*Estilizacão do cabecalho*/
+    .topo2{
+        color: white;
+        background-color: black;
+        padding: 10px;
+        
+    }
+    /*Estilizacão da img do cabecalho*/
+    img{
+        width: 40%;
+        height: 40%;
+        display:block;
+        margin:auto;
+        border-radius: 10px;
+    }
+    /*Estilizacão do cabecalho*/
+    .topo2{
+        text-align: center;
+        line-height: 12%;
+    }
+    /*Estilizacão do formulario*/
+    form{
+        display: flex;
+        flex-direction: column;
+
+    }
+    /*Estilizacão do campo input*/
+    input{
+        border-radius: 10%;
+    }
+    /*Estilizacão da secão*/
+    .coluna1 form{
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+    /*Estilizacão do menu*/
+    .menu{
+        background-color: lightgray;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    /*Estilizacão do rodapé*/
+    #footer{
+        position: relative;
+        bottom: 0%;
+        right: 0%;
+        left:0%;
+        align-content:center;
+        text-align:center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quem Somos</title>
+    <link rel="stylesheet" href="sobre.css">
+</head>
+<body>
+
+    <!--Tag semântica para cabecalho-->
+    <header class="topo2">
+        <img src="img/imagem.jpg">
+        <h1>CADASTRO DE ALUNOS</h1>
+        <h4>PREENCHA O FORMULÁRIO</h4>
+    </header>
+
+    <!--Tag semântica para menu-->
+    <nav class="menu">
+      <a href="index.html">Voltar</a>
+    </nav><br>
+
+  <!--Tag semântica para secao-->
+  <section class="coluna1">
+    <form method="post" action="https://script.google.com/macros/s/AKfycbyaiT52VTLc1Z1-0GxyuIQmJPJrVOVXNSZEcB2t_5HIeuuGdHshTPFvmkUQ3ohZFSyv/exec" name="contactfomr" id="contactfomr">
+      <label for="campo_nome">Nome do Aluno:</label>
+      <input style="height:50px" id="campo_nome" type="text" placeholder="Nome do aluno:" required name="nome-aluno" id="nome-aluno">
+
+      <label for="campo_mae">Nome da mãe:</label>
+      <input style="height:50px" id="campo_mae" type="text" placeholder="Nome da mãe" required name="nome-mae-aluno" id="nome-mae-aluno">
+
+      <label for="campo_pai">Nome do pai:</label>
+      <input style="height:50px" id="campo_pai" type="text" placeholder="Nome do pai" required name="nome-pai-aluno" id="nome-pai-aluno">
+
+      <label for="campo_tel">Telefone:</label>
+      <input style="height:50px" id="campo_tel" type="tel" placeholder="(00) 0 0000-0000" required name="telefone" id="telefone">
+
+      <label for="campo_email">Email:</label>
+      <input style="height:50px" id="campo_email" type="email" placeholder="Email" required name="email" id="email"><br>
+
+      <label>Horarios Disponiveis:</label>
+
+      <label for="horas">
+        9:00 as 11:00
+      <input type="radio" value="9:00 as 11:00" required name="horario-opcao" id="09-as-11">
+      </label>
+
+      <label for="horario">
+        13:00 as 15:00
+      <input type="radio" value="13:00 as 15:00" required name="horario-opcao" id="13-as-15">
+      </label>
+
+      <label for="horarios">
+        15:00 as 17:00
+      <input type="radio" value="15:00 as 17:00" required name="horario-opcao" id="15-as-17">
+      </label><br>
+
+      <label>O que seu filho(a) precisa?:</label>
+      <input style="height:50px" type="text" placeholder="Digite aqui" required name="sobre-aluno" id="sobre-aluno"><br><br>
+      
+      <input type="submit" value="Enviar Formulário">
+      
+    </form>
+  </section><br>
+  
+  <!--Tag semântica para rodapé-->
+  <footer id="footer">
+        <hr>
+        <h5>REFORÇO ESCOLAR<br>TIA ANA & TIA RAIANE<br>© 2024</h5>
+  </footer>
+      
+</body>
+</html>

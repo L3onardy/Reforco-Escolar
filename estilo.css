@@ -1,0 +1,78 @@
+@media(max-width:450px){
+    *{
+        box-sizing: border-box;
+    }
+    /*Estilizacão do corpo do site*/
+    body{
+        margin: 0;
+        color: black;
+        background-color: white;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    /*Estilizacão da imagem do cabecalho*/
+    img{
+        text-align:  justify;
+        width: 40%;
+        height: 40%;
+        display:block;
+        margin:auto;
+        border-radius: 10px;
+    }
+    /*Estilizacão do cabecalho*/
+    .topo{
+        color: white;
+        background-color: black;
+        line-height: 30%;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        padding: 10px;
+    }
+    /*Estilizacão do menu*/
+    .menu{
+        background-color: lightgray;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    /*Estilizacão da tag link a*/
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    /*Estilizacão da tag link a*/
+    a:hover{
+        color: blue;
+
+    }
+    /*Estilizacão do paragrafo*/
+    p{
+        
+        font-size: larger;
+        text-align: center;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    /*Estilizacão da secão*/
+    .coluna{
+
+        padding: 10px;
+    }
+    /*Estilizacão da imagem da secão */
+    .coluna img{
+        width: 80%;
+        height: 80%;
+    }
+    /*Estilizacão do rodapé*/
+    #footer{
+        position: static;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        
+    }
+
+
+}
