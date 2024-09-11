@@ -46,7 +46,7 @@
     }
     /*Estilizacão do campo input*/
     input{
-        border-radius: 10%;
+        border-radius: 10px;
     }
     /*Estilizacão da secão*/
     .coluna1 form{
